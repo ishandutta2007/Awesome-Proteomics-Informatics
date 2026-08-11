@@ -1,5 +1,9 @@
 # Awesome-Proteomics-Informatics
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Proteomics Informatics — animated banner with curated proteomics software tools" width="100%" />
+</p>
+
 ## Top Proteomics Informatics Platforms
 
 A curated list of leading software tools for proteomics informatics — covering peptide/protein identification, quantification (DDA, DIA, labeled, label-free), PTM analysis, spectral library search, de novo sequencing, and targeted/untargeted workflows from mass spectrometry data.  

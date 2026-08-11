@@ -13,6 +13,19 @@
   <img src="assets/banner.svg" alt="Awesome Proteomics Informatics — curated list of open-source and commercial proteomics software for mass spectrometry data analysis (DDA, DIA, PTM, de novo sequencing, quantification)" width="100%" />
 </p>
 
+<div align="center">
+
+<!-- Badge list (left → right) -->
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Proteomics-Informatics?style=flat-square&logo=github&color=2ea44f" alt="GitHub stars" />
+<img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Proteomics-Informatics?style=flat-square&logo=github&color=blue" alt="GitHub forks" />
+<img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Proteomics-Informatics?style=flat-square&color=orange" alt="License" />
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=github" alt="PRs welcome" />
+<img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Proteomics-Informatics?style=flat-square&color=purple" alt="Last commit" />
+
+</div>
+
 ## 📚 Table of Contents
 
 - [🚀 Top Proteomics Informatics Platforms](#-top-proteomics-informatics-platforms)

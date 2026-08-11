@@ -32,28 +32,32 @@ Proteomics has one of the strongest open-source ecosystems in bioinformatics. Ma
 
 ### Core Frameworks & Search / Quantification Engines
 
+Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargazers page.
+
 | Project | Description | License / Availability | Notes |
 |---------|-------------|------------------------|-------|
-| **[MaxQuant](https://www.maxquant.org/)** + Andromeda | Integrated suite for peak detection, identification, and quantification (MaxLFQ, SILAC, TMT, label-free, MaxDIA). Extremely popular for high-resolution Orbitrap data. | Free for academic/non-profit use | De facto standard for many discovery workflows |
-| **[Skyline](https://skyline.ms/)** | Open-source targeted proteomics platform for method building, data extraction, visualization, and quantification across SRM, PRM, DIA, and MS1. Multi-vendor support. | Apache 2.0 (open source) | Essential for targeted quantitation |
-| **[OpenMS](https://www.openms.de/)** | Comprehensive open-source C++ framework and TOPP tools for LC-MS data processing, identification, quantification (label-free, labeled, DIA/SWATH), visualization, and workflow building. | BSD-3-Clause | Full modular pipeline + TOPPView |
-| **[FragPipe](https://fragpipe.nesvilab.org/)** + **[MSFragger](https://github.com/Nesvilab/MSFragger)** | Ultra-fast search engine (fragment ion indexing) + complete pipeline for DDA/DIA, open modification searches, quantification (IonQuant), and PTM analysis. | Academic free / open components | Exceptional speed for large datasets & open searches |
-| **[DIA-NN](https://github.com/vdemichev/DiaNN)** | High-performance neural network-based DIA analysis tool. Library-free and library-based quantification with excellent depth and accuracy. | Free / open-source components | Leading open DIA competitor to Spectronaut |
-| **[MS-DIAL](https://prime.psc.riken.jp/compms/msdial/main.html)** | Open-source DIA MS/MS deconvolution and untargeted analysis platform (strong in metabolomics/lipidomics; also used for broader MS). Multi-vendor support. | Open source | Excellent for DIA deconvolution |
-| **[Comet](https://github.com/UWPR/Comet)** | Open-source fork of the classic SEQUEST database search engine. Fast and widely integrated into other pipelines. | Apache 2.0 | Reliable open database search |
-| **[X!Tandem](https://www.thegpm.org/tandem/)** | Open-source probabilistic search engine with expectation value scoring. | Open source | Classic community search engine |
+| **[OpenMS](https://www.openms.de/)** [![GitHub stars](https://img.shields.io/github/stars/OpenMS/OpenMS?style=social&color=white)](https://github.com/OpenMS/OpenMS/stargazers) | Comprehensive open-source C++ framework and TOPP tools for LC-MS data processing, identification, quantification (label-free, labeled, DIA/SWATH), visualization, and workflow building. | BSD-3-Clause | Full modular pipeline + TOPPView |
+| **[DIA-NN](https://github.com/vdemichev/DiaNN)** [![GitHub stars](https://img.shields.io/github/stars/vdemichev/DiaNN?style=social&color=white)](https://github.com/vdemichev/DiaNN/stargazers) | High-performance neural network-based DIA analysis tool. Library-free and library-based quantification with excellent depth and accuracy. | Free / open-source components | Leading open DIA competitor to Spectronaut |
+| **[FragPipe](https://fragpipe.nesvilab.org/)** [![GitHub stars](https://img.shields.io/github/stars/Nesvilab/FragPipe?style=social&color=white)](https://github.com/Nesvilab/FragPipe/stargazers) + **[MSFragger](https://github.com/Nesvilab/MSFragger)** [![GitHub stars](https://img.shields.io/github/stars/Nesvilab/MSFragger?style=social&color=white)](https://github.com/Nesvilab/MSFragger/stargazers) | Ultra-fast search engine (fragment ion indexing) + complete pipeline for DDA/DIA, open modification searches, quantification (IonQuant), and PTM analysis. | Academic free / open components | Exceptional speed for large datasets & open searches |
+| **[Comet](https://github.com/UWPR/Comet)** [![GitHub stars](https://img.shields.io/github/stars/UWPR/Comet?style=social&color=white)](https://github.com/UWPR/Comet/stargazers) | Open-source fork of the classic SEQUEST database search engine. Fast and widely integrated into other pipelines. | Apache 2.0 | Reliable open database search |
+| **[X!Tandem](https://www.thegpm.org/tandem/)** [![GitHub stars](https://img.shields.io/github/stars/thegpm/tandem?style=social&color=white)](https://github.com/thegpm/tandem/stargazers) | Open-source probabilistic search engine with expectation value scoring. | Open source | Classic community search engine |
+| **[MaxQuant](https://www.maxquant.org/)** + Andromeda | Integrated suite for peak detection, identification, and quantification (MaxLFQ, SILAC, TMT, label-free, MaxDIA). Extremely popular for high-resolution Orbitrap data. | Free for academic/non-profit use | De facto standard for many discovery workflows (not on GitHub) |
+| **[Skyline](https://skyline.ms/)** | Open-source targeted proteomics platform for method building, data extraction, visualization, and quantification across SRM, PRM, DIA, and MS1. Multi-vendor support. | Apache 2.0 (open source) | Essential for targeted quantitation (not on GitHub) |
+| **[MS-DIAL](https://prime.psc.riken.jp/compms/msdial/main.html)** | Open-source DIA MS/MS deconvolution and untargeted analysis platform (strong in metabolomics/lipidomics; also used for broader MS). Multi-vendor support. | Open source | Excellent for DIA deconvolution (not on GitHub) |
 
 ### Specialized Libraries & Related Tools
 
+Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargazers page.
+
 | Project | Description | Focus Area |
 |---------|-------------|------------|
-| **[ProteoWizard](https://proteowizard.sourceforge.io/)** | Open-source libraries and tools (msconvert, etc.) for reading/writing MS data formats and basic processing. Foundation for many other tools. | Data conversion & access |
-| **[Percolator](https://github.com/percolator/percolator)** | Machine-learning post-processor for improving peptide/protein identification confidence (widely integrated). | FDR control & rescoring |
-| **[Trans-Proteomic Pipeline (TPP)](http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP)** | Modular open-source pipeline for peptide/protein identification, validation, and quantification. | Standardized open workflow |
-| **[PeptideShaker](https://github.com/compomics/peptide-shaker)** | Open-source tool for interpretation and visualization of proteomics identification results. | Results interpretation |
-| **[EncyclopeDIA](https://bitbucket.org/searleb/encyclopedia)** | Open-source DIA analysis and spectral library tools. | DIA library search |
-| **[AlphaPept / AlphaX ecosystem](https://github.com/MannLabs)** | Modern open-source Python-based proteomics tools from the Mann lab for search, quantification, and downstream analysis. | Next-gen open pipelines |
-| **[MZmine](https://github.com/mzmine/mzmine)** | Open-source framework for LC-MS data processing (strong in metabolomics; usable for proteomics feature detection). | Feature detection & processing |
+| **[ProteoWizard](https://proteowizard.sourceforge.io/)** [![GitHub stars](https://img.shields.io/github/stars/ProteoWizard/pwiz?style=social&color=white)](https://github.com/ProteoWizard/pwiz/stargazers) | Open-source libraries and tools (msconvert, etc.) for reading/writing MS data formats and basic processing. Foundation for many other tools. | Data conversion & access |
+| **[MZmine](https://github.com/mzmine/mzmine)** [![GitHub stars](https://img.shields.io/github/stars/mzmine/mzmine?style=social&color=white)](https://github.com/mzmine/mzmine/stargazers) | Open-source framework for LC-MS data processing (strong in metabolomics; usable for proteomics feature detection). | Feature detection & processing |
+| **[AlphaPept / AlphaX ecosystem](https://github.com/MannLabs)** [![GitHub stars](https://img.shields.io/github/stars/MannLabs/alphapept?style=social&color=white)](https://github.com/MannLabs/alphapept/stargazers) | Modern open-source Python-based proteomics tools from the Mann lab for search, quantification, and downstream analysis. | Next-gen open pipelines |
+| **[Percolator](https://github.com/percolator/percolator)** [![GitHub stars](https://img.shields.io/github/stars/percolator/percolator?style=social&color=white)](https://github.com/percolator/percolator/stargazers) | Machine-learning post-processor for improving peptide/protein identification confidence (widely integrated). | FDR control & rescoring |
+| **[PeptideShaker](https://github.com/compomics/peptide-shaker)** [![GitHub stars](https://img.shields.io/github/stars/compomics/peptide-shaker?style=social&color=white)](https://github.com/compomics/peptide-shaker/stargazers) | Open-source tool for interpretation and visualization of proteomics identification results. | Results interpretation |
+| **[EncyclopeDIA](https://bitbucket.org/searleb/encyclopedia)** | Open-source DIA analysis and spectral library tools. | DIA library search (not on GitHub) |
+| **[Trans-Proteomic Pipeline (TPP)](http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP)** | Modular open-source pipeline for peptide/protein identification, validation, and quantification. | Standardized open workflow (not on GitHub) |
 
 ### Additional Notable Open-Source Tools
 

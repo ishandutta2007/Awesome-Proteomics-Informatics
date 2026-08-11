@@ -156,3 +156,17 @@ Please open an issue or pull request. 🙌
 
 **📅 Last updated:** August 2026  
 Emphasizing open-source tools while documenting the major commercial platforms for context. Proteomics benefits from an exceptionally mature open-source ecosystem (MaxQuant, Skyline, OpenMS, FragPipe, DIA-NN, and others) that powers a large fraction of published research. 🧪🔬
+
+---
+
+## ⭐ Star History
+
+<div align="center">
+  <a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Proteomics-Informatics&type=date&legend=bottom-right">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Proteomics-Informatics&type=date&theme=dark&legend=bottom-right" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Proteomics-Informatics&type=date&legend=bottom-right" />
+      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Proteomics-Informatics&type=date&legend=bottom-right" />
+    </picture>
+  </a>
+</div>

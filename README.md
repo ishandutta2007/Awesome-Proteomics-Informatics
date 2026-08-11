@@ -1,8 +1,31 @@
+<!--
+  description: Awesome Proteomics Informatics is a curated list of the best proteomics software tools for mass spectrometry (MS) data analysis — DDA and DIA search engines, peptide and protein identification, label-free and isobaric quantification (MaxQuant, Skyline, OpenMS, FragPipe, DIA-NN, Spectronaut, PEAKS), PTM analysis, de novo sequencing, spectral libraries, and more.
+  keywords: proteomics, proteomics informatics, mass spectrometry, MS data analysis, DDA, DIA, SWATH, peptide identification, protein quantification, MaxQuant, Skyline, OpenMS, FragPipe, MSFragger, DIA-NN, Spectronaut, PEAKS Studio, Scaffold, Byonic, de novo sequencing, PTM analysis, spectral libraries, open-source proteomics software
+  author: ishandutta2007
+  lang: en
+-->
+
 # 🧬 Awesome-Proteomics-Informatics
 
+> **The definitive curated list of proteomics informatics software** — open-source and commercial tools for mass spectrometry data analysis. 🌟
+
 <p align="center">
-  <img src="assets/banner.svg" alt="Awesome Proteomics Informatics — animated banner with curated proteomics software tools" width="100%" />
+  <img src="assets/banner.svg" alt="Awesome Proteomics Informatics — curated list of open-source and commercial proteomics software for mass spectrometry data analysis (DDA, DIA, PTM, de novo sequencing, quantification)" width="100%" />
 </p>
+
+## 📚 Table of Contents
+
+- [🚀 Top Proteomics Informatics Platforms](#-top-proteomics-informatics-platforms)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source Softwares](#-open-source-softwares)
+  - [⚙️ Core Frameworks & Search / Quantification Engines](#️-core-frameworks--search--quantification-engines)
+  - [🧩 Specialized Libraries & Related Tools](#-specialized-libraries--related-tools)
+  - [📦 Additional Notable Open-Source Tools](#-additional-notable-open-source-tools)
+- [🎯 Quick Start Recommendations](#-quick-start-recommendations)
+- [🤝 Contributing](#-contributing)
+- [⭐ Star History](#-star-history)
+
+---
 
 ## 🚀 Top Proteomics Informatics Platforms
 
@@ -10,6 +33,8 @@ A curated list of leading software tools for proteomics informatics — covering
 **🎯 Primary focus: open-source software.**
 
 Commercial / hosted platforms are listed separately for completeness. Open-source alternatives and community tools are emphasized throughout.
+
+This list is a practical starting point for researchers, bioinformaticians, and core facilities evaluating proteomics analysis platforms for LC-MS/MS workflows.
 
 ---
 

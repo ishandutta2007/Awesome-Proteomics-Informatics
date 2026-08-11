@@ -1,21 +1,21 @@
-# Awesome-Proteomics-Informatics
+# 🧬 Awesome-Proteomics-Informatics
 
 <p align="center">
   <img src="assets/banner.svg" alt="Awesome Proteomics Informatics — animated banner with curated proteomics software tools" width="100%" />
 </p>
 
-## Top Proteomics Informatics Platforms
+## 🚀 Top Proteomics Informatics Platforms
 
 A curated list of leading software tools for proteomics informatics — covering peptide/protein identification, quantification (DDA, DIA, labeled, label-free), PTM analysis, spectral library search, de novo sequencing, and targeted/untargeted workflows from mass spectrometry data.  
-**Primary focus: open-source software.**
+**🎯 Primary focus: open-source software.**
 
 Commercial / hosted platforms are listed separately for completeness. Open-source alternatives and community tools are emphasized throughout.
 
 ---
 
-## SaaS / Hosted Platforms
+## ☁️ SaaS / Hosted Platforms
 
-| Platform | Company size (revenue / budget) | Pricing (starting tier) | Free tier / Trial | Description | Key Focus |
+| Platform | 🏢 Company size (revenue / budget) | 💰 Pricing (starting tier) | 🆓 Free tier / Trial | Description | Key Focus |
 |----------|-------------------------------|-------------------------|-------------------|-------------|-----------|
 | **[Byonic](https://www.proteinmetrics.com/)** (Protein Metrics) | **€78.9B** — ultimate parent Siemens (FY2025); Protein Metrics acquired by Dotmatics/Insightful Science (Dec 2021) | **$5,225/year** academic · **$10,450/year** commercial (per user) | 30-day free trial (with Byos evaluation); **Byonic Viewer** free download | Highly sensitive full MS/MS search engine for peptide and protein identification. Strong for glycoproteomics, phosphoproteomics, wide modification searches, and high-throughput workflows. Vendor-neutral. | Sensitive search engine (especially PTMs/glycans) |
 | **[Proteome Discoverer](https://www.thermofisher.com/)** (Thermo Fisher) | **$42.88B revenue** (FY2024) | ~$3,705 per base module/node (list price); full client-server packages scale higher; custom quote | 30-day free trial of commercial nodes; core/open-source nodes remain free | Comprehensive, extensible platform for protein identification, quantification (LFQ, isobaric tags), PTM analysis, DIA/DDA, glycoproteomics, cross-linking, and top-down. Integrates multiple search engines (Sequest HT, Mascot, etc.) and advanced rescoring (INFERYS, CHIMERYS). | Full-featured commercial proteomics suite (especially Thermo instruments) |
@@ -30,11 +30,11 @@ Commercial / hosted platforms are listed separately for completeness. Open-sourc
 
 ---
 
-## Open-Source Softwares
+## 💻 Open-Source Softwares
 
 Proteomics has one of the strongest open-source ecosystems in bioinformatics. Many widely adopted tools are free or fully open-source and often match or exceed commercial performance in specific workflows.
 
-### Core Frameworks & Search / Quantification Engines
+### ⚙️ Core Frameworks & Search / Quantification Engines
 
 Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargazers page.
 
@@ -53,7 +53,7 @@ Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargaze
 | **[Skyline](https://skyline.ms/)** | Open-source targeted proteomics platform for method building, data extraction, visualization, and quantification across SRM, PRM, DIA, and MS1. Multi-vendor support. | Apache 2.0 (open source) | Essential for targeted quantitation (not on GitHub) |
 | **[MS-DIAL](https://prime.psc.riken.jp/compms/msdial/main.html)** | Open-source DIA MS/MS deconvolution and untargeted analysis platform (strong in metabolomics/lipidomics; also used for broader MS). Multi-vendor support. | Open source | Excellent for DIA deconvolution (not on GitHub) |
 
-### Specialized Libraries & Related Tools
+### 🧩 Specialized Libraries & Related Tools
 
 Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargazers page.
 
@@ -78,7 +78,7 @@ Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargaze
 | **[EncyclopeDIA](https://bitbucket.org/searleb/encyclopedia)** | Open-source DIA analysis and spectral library tools. | DIA library search (not on GitHub) |
 | **[Trans-Proteomic Pipeline (TPP)](http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP)** | Modular open-source pipeline for peptide/protein identification, validation, and quantification. | Standardized open workflow (not on GitHub) |
 
-### Additional Notable Open-Source Tools
+### 📦 Additional Notable Open-Source Tools
 
 - **Search engines & adapters** — Andromeda (MaxQuant), Morpheus, and community search-engine adapters.
 - **Quantification helpers** — MaxLFQ implementations and Python/R packages for downstream statistics.
@@ -87,13 +87,13 @@ Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargaze
 - **Cross-linking & special workflows** — OpenMS crosslinking tools and specialized open packages.
 - **Data repositories & discovery** — PRIDE, MassIVE, PeptideAtlas, and OmicsDI (public indexes).
 
-**Note:** Many commercial tools (Proteome Discoverer, Scaffold, Spectronaut) offer excellent usability and vendor-optimized performance. Open-source alternatives (MaxQuant, FragPipe, DIA-NN, OpenMS, Skyline) are production-grade, highly cited, and frequently preferred in academic research for transparency, cost, and cutting-edge algorithms. Hybrid workflows (open search engines + commercial validation/visualization) are very common.
+**💡 Note:** Many commercial tools (Proteome Discoverer, Scaffold, Spectronaut) offer excellent usability and vendor-optimized performance. Open-source alternatives (MaxQuant, FragPipe, DIA-NN, OpenMS, Skyline) are production-grade, highly cited, and frequently preferred in academic research for transparency, cost, and cutting-edge algorithms. Hybrid workflows (open search engines + commercial validation/visualization) are very common.
 
 ---
 
-## Quick Start Recommendations
+## 🎯 Quick Start Recommendations
 
-| Goal | Recommended Starting Point |
+| 🎯 Goal | ✅ Recommended Starting Point |
 |------|---------------------------|
 | High-quality DDA discovery + quantification | **MaxQuant** or **FragPipe/MSFragger** |
 | Targeted quantitation (SRM/PRM/DIA) & method building | **Skyline** |
@@ -108,12 +108,12 @@ Sorted by GitHub ⭐ stars (descending). Star badge links to the repo's stargaze
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Contributions, corrections, and new open-source projects are welcome.  
-Please open an issue or pull request.
+Contributions, corrections, and new open-source projects are welcome! 🌟  
+Please open an issue or pull request. 🙌
 
 ---
 
-**Last updated:** August 2026  
-Emphasizing open-source tools while documenting the major commercial platforms for context. Proteomics benefits from an exceptionally mature open-source ecosystem (MaxQuant, Skyline, OpenMS, FragPipe, DIA-NN, and others) that powers a large fraction of published research.
+**📅 Last updated:** August 2026  
+Emphasizing open-source tools while documenting the major commercial platforms for context. Proteomics benefits from an exceptionally mature open-source ecosystem (MaxQuant, Skyline, OpenMS, FragPipe, DIA-NN, and others) that powers a large fraction of published research. 🧪🔬

@@ -23,6 +23,7 @@
 <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Proteomics-Informatics?style=flat-square&color=orange" alt="License" />
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=github" alt="PRs welcome" />
 <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Proteomics-Informatics?style=flat-square&color=purple" alt="Last commit" />
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 </div>
 
